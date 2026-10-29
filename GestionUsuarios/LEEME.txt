@@ -1,0 +1,11 @@
+Aplicación de gestión de usuarios (Java Swing)
+
+Estructura:
+  src/usuarios/  Usuario (abstracta), Administrador (abstracta), UsuarioRegular, AdministradorGeneral
+  src/gui/       VentanaPrincipal (con clases internas)
+  capturas/      Capturas de la aplicación y de los paquetes
+  Diagrama_de_Clases.pdf, Informe_Gestion_Usuarios.pdf
+
+Compilar y ejecutar (JDK 11 o superior):
+  javac -encoding UTF-8 -d out src/usuarios/*.java src/gui/*.java
+  java -cp out gui.VentanaPrincipal
